@@ -5,7 +5,7 @@ OWASP Zed Attack Proxy (ZAP)
 
 The software package is:
 
-    Copyright © 2010-2015 Simon Bennetts and the ZAP Development Team
+    Copyright © 2010-2016 ZAP Development Team
 
 Individual contributions, components, and libraries are copyright of their
 respective authors.
@@ -31,8 +31,6 @@ and subject to their respective licenses.
 
 | Library                       | License                   |
 |-------------------------------|---------------------------|
-| ant.jar                       | Apache 2.0                |
-| AppleJavaExtensions.jar       | Apple Binary Code         |
 | bcmail-jdk15on-152.jar        | MIT                       |
 | bcpkix-jdk15on-152.jar        | MIT                       |
 | bcprox-jdk15on-152.jar        | MIT                       |
@@ -40,23 +38,24 @@ and subject to their respective licenses.
 | - WrapLog                     | BSD-3 clause              |
 | - Regor                       | GPL / LGPL dual license   |
 | commons-beanutils-1.8.3.jar   | Apache 2.0                |
-| commons-codec-1.4.jar         | Apache 2.0                |
-| commons-collections-3.2.1.jar | Apache 2.0                |
+| commons-codec-1.9.jar         | Apache 2.0                |
+| commons-collections-3.2.2.jar | Apache 2.0                |
 | commons-configuration-1.9.jar | Apache 2.0                |
 | commons-csv-1.1.jar           | Apache 2.0                |
 | commons-httpclient-3.1.jar    | Apache 2.0                |
 | commons-io-2.4.jar            | Apache 2.0                |
 | commons-jxpath-1.3.jar        | Apache 2.0                |
 | commons-lang-2.6.jar          | Apache 2.0                |
-| commons-logging-1.1.1.jar     | Apache 2.0                |
+| commons-logging-1.2.jar       | Apache 2.0                |
 | commons-logging-api-1.1.1.jar | Apache 2.0                |
 | diffutils-1.2.1.jar           | Apache 2.0                |
 | ezmorph-1.0.6.jar             | Apache 2.0                |
 | harlib-jackson-1.1.2.jar      | Apache 2.0                |
 | hsqldb.jar                    | BSD                       |
-| httpclient-4.1.2.jar          | Apache 2.0                |
-| httpcore-4.1.2.jar            | Apache 2.0                |
+| httpclient-4.5.jar            | Apache 2.0                |
+| httpcore-4.4.1.jar            | Apache 2.0                |
 | java-semver-0.8.0.jar         | MIT                       |
+| jcommon-1.0.23.jar            | LGPL                      |
 | jdom.jar                      | BSD                       |
 | jericho-html-3.1.jar          | EPL / LGPL dual license   |
 | jfreechart-1.0.13.jar         | LGPL                      |
@@ -65,8 +64,8 @@ and subject to their respective licenses.
 | jh.jar                        | GPL + classpath exception |
 | json-lib-2.4-jdk15.jar        | MIT + "Good, Not Evil"    |
 | log4j-1.2.17.jar              | Apache 2.0                |
-| rsyntaxtextarea-2.5.6.jar     | BSD-3 clause              |
-| sqlite-jdbc-3.7.15-M1.jar     | BSD-2 clause              |
+| rsyntaxtextarea-2.5.8.jar     | BSD-3 clause              |
+| sqlite-jdbc-3.8.11.jar        | BSD-2 clause              |
 | - NestedVM                    | Apache 2.0                |
 | swingx-all-1.6.4.jar          | LGPL 2.1                  |
 | xom-1.2.10.jar                | LGPL                      |
