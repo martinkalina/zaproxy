@@ -230,7 +230,7 @@ public class FormBasedAuthenticationMethodType extends AuthenticationMethodType 
 			try {
 				msg = prepareRequestMessage(cred);
 			} catch (Exception e) {
-				log.error("Unable to prepare authentication message: " + e.getMessage());
+				log.error("Unable to prepare authentication message: " + e.getMessage(), e);
 				return null;
 			}
 
@@ -389,7 +389,7 @@ public class FormBasedAuthenticationMethodType extends AuthenticationMethodType 
 			values.put("methodName", API_METHOD_NAME);
 			values.put("loginUrl", loginRequestURL);
 			values.put("loginRequestData", this.loginRequestBody);
-			return new ApiResponseSet("method", values);
+			return new ApiResponseSet<String>("method", values);
 		}
 
 		@Override
